@@ -7,7 +7,7 @@ const Home = () => {
    return (
     <section id="home" className='min-h-screen flex py-10 md:flex-row flex-col items-center bg-[#1d2733]'>
       <div className='flex-1 flex items-center justify-center'>
-        <img src={hero} alt="" className='md:w-11/12 h-full object-cover pl-10 rounded-3xl' />
+        <img src={hero} alt="..." className='md:w-11/12 h-full object-cover pl-10 rounded-3xl' />
       </div> 
         <div className='flex-1'>
           <div className='md:text-left text-center'>

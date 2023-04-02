@@ -102,7 +102,7 @@ const Skills = () => {
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 pt-20 sm:px-0'>
                 {tech.map(({id, src, title, style}) => (
                 <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
-                    <img src={src} className='w-20 h-20 mx-auto' alt="" />
+                    <img src={src} className='w-20 h-20 mx-auto' alt="..." />
                     <p>{title}</p>
                 </div>
                 ))}           

@@ -26,7 +26,7 @@ const Portfolio = () => {
                 {
                 portfolios.map(({id, src}) => ( 
                     <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
-                        <img src={src} className='h-40 w-full' />
+                        <img src={src} alt='...' className='h-40 w-full' />
                         <div className='flex items-center justify-between px-5'>
                             <button className='hover:scale-105 pt-3'>Demo</button>
                             <button className='hover:scale-105 pt-3'>Code</button>
