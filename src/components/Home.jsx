@@ -13,7 +13,7 @@ const Home = () => {
           <div className='md:text-left text-center'>
             <h1 className='md:text-5xl text-2xl md:leading-normal leading-10 text-gray-300 font-bold md:text-start text-center'>
               <span className='text-[#e22b76] md:text-6xl text-5xl font-extrabold'>HELLO!<br/></span>
-              My Name is Ediliza Diata
+              My Name is<br/> Ediliza Diata
             </h1>
             <h4 className='md:text-2xl text-lg text-gray-300 md:leading-normal leading-5 font-bold mb-5'> FullStack Web Developer</h4>
             <Link to='portfolio' className='btn-pink text-gray-300 cursor-pointer'>Portfolio</Link>

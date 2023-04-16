@@ -1,19 +1,28 @@
 import React from 'react'
+import mp2 from '../image/mp2.png'
+import litrato from '../image/litrato.png'
+import heromp1 from '../image/heromp1.png'
 
 const Portfolio = () => {
 
     const portfolios = [
         {
             id: 1,
-            src: 'https://tse3.mm.bing.net/th?id=OIP.VMBOkvCLQViRxZzyzd5COAHaEK&pid=Api&P=0'
+            src: heromp1,
+            href: 'https://liza-diata.github.io/GreenPillarDC.github.io/',
+            code: 'https://green-pillar-dc-github-io.vercel.app/'
         },
         {
             id: 2,
-            src: 'https://tse1.mm.bing.net/th?id=OIP.0SvdLkqEk44xY6sz3Yn-nQHaHN&pid=Api&P=0'
+            src: mp2,
+            href:'https://mp-2-github-io.vercel.app/',
+            code:'https://github.com/Liza-Diata/mp-2.github.io.git'
         },
         {
             id: 3,
-            src: 'https://tse1.mm.bing.net/th?id=OIP.LskQ7SN-4_O66dXJFJr-yQHaDz&pid=Api&P=0'
+            src: litrato,
+            href: 'https://l.facebook.com/l.php?u=https%3A%2F%2Flitrato-9a0a8.web.app%2F%3Ffbclid%3DIwAR0cP2UhltHboHR3CJoP5VhFnVeEo7eZ8lF9wexC1bduegdou6XGKnYelYk&h=AT3_m4wcgmap_G-iMwrWM7BDHvJ-CTdtYrCTAeSt0_DrbdEgHbf5M7YBhbpO08EnDUUBer26gPmOpF4fWJnTRZ2Mkjl5hngzioxL5Az51oyUAyVFcssF8zGb6QxTL7LsQbdlAQ',
+            code: 'https://github.com/Liza-Diata/Litrato'
         }
     ]
 
@@ -24,12 +33,14 @@ const Portfolio = () => {
                 <p className='py-2 mx-auto'>Check out some of my work right here</p>
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 sm:px-0 pt-20'>
                 {
-                portfolios.map(({id, src}) => ( 
+                portfolios.map(({id, src, href, code}) => ( 
                     <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                         <img src={src} alt='...' className='h-40 w-full' />
                         <div className='flex items-center justify-between px-5'>
-                            <button className='hover:scale-105 pt-3'>Demo</button>
-                            <button className='hover:scale-105 pt-3'>Code</button>
+                            <a href={href}>
+                            <button className='hover:scale-105 pt-3'>Demo</button></a>
+                            <a href={code}>
+                            <button className='hover:scale-105 pt-3'>Code</button></a>
                         </div>
                     </div>
                 ))

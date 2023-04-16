@@ -27,7 +27,7 @@ const SocialLinks = () => {
             id: 4,
             title: 'Resume',
             logo: 'document-outline',
-            href: 'https://www.linkedin.com/in/ediliza-diata-27257a270/',
+            href: 'https://drive.google.com/file/d/10Z_Fo5ML_VThjvRwCJARkVclhoNx3ogX/view?usp=share_link',
             download: true
         }        
          
