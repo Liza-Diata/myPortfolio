@@ -2,6 +2,7 @@ import React from 'react'
 import mp2 from '../image/mp2.png'
 import litrato from '../image/litrato.png'
 import heromp1 from '../image/heromp1.png'
+import fullStack from '../image/fullStack.png'
 
 const Portfolio = () => {
 
@@ -23,6 +24,12 @@ const Portfolio = () => {
             src: litrato,
             href: 'https://l.facebook.com/l.php?u=https%3A%2F%2Flitrato-9a0a8.web.app%2F%3Ffbclid%3DIwAR0cP2UhltHboHR3CJoP5VhFnVeEo7eZ8lF9wexC1bduegdou6XGKnYelYk&h=AT3_m4wcgmap_G-iMwrWM7BDHvJ-CTdtYrCTAeSt0_DrbdEgHbf5M7YBhbpO08EnDUUBer26gPmOpF4fWJnTRZ2Mkjl5hngzioxL5Az51oyUAyVFcssF8zGb6QxTL7LsQbdlAQ',
             code: 'https://github.com/Liza-Diata/Litrato'
+        },
+        {
+            id: 4,
+            src: fullStack,
+            href: 'https://fullstack-vue-project.onrender.com',
+            code: 'https://github.com/Liza-Diata/FullStack-Vue'
         }
     ]
 
