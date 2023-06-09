@@ -22,7 +22,7 @@ const Portfolio = () => {
         {
             id: 3,
             src: litrato,
-            href: 'https://l.facebook.com/l.php?u=https%3A%2F%2Flitrato-9a0a8.web.app%2F%3Ffbclid%3DIwAR0cP2UhltHboHR3CJoP5VhFnVeEo7eZ8lF9wexC1bduegdou6XGKnYelYk&h=AT3_m4wcgmap_G-iMwrWM7BDHvJ-CTdtYrCTAeSt0_DrbdEgHbf5M7YBhbpO08EnDUUBer26gPmOpF4fWJnTRZ2Mkjl5hngzioxL5Az51oyUAyVFcssF8zGb6QxTL7LsQbdlAQ',
+            href: 'https://litrato-9a0a8.web.app/',
             code: 'https://github.com/Liza-Diata/Litrato'
         },
         {
