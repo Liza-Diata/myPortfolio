@@ -9,24 +9,18 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: heromp1,
-            href: 'https://liza-diata.github.io/GreenPillarDC.github.io/',
-            code: 'https://green-pillar-dc-github-io.vercel.app/'
-        },
-        {
-            id: 2,
             src: mp2,
             href:'https://mp-2-github-io.vercel.app/',
             code:'https://github.com/Liza-Diata/mp-2.github.io.git'
         },
         {
-            id: 3,
+            id: 2,
             src: litrato,
             href: 'https://litrato-9a0a8.web.app/',
             code: 'https://github.com/Liza-Diata/Litrato'
         },
         {
-            id: 4,
+            id: 3,
             src: fullStack,
             href: 'https://fullstack-vue-project.onrender.com',
             code: 'https://github.com/Liza-Diata/FullStack-Vue'
